@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/branzozk/extranjeriaasesores.es/prueba
+    - /bin/cp -R * $DEPLOYPATH
